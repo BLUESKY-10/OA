@@ -14,10 +14,10 @@ public class EmpController {
 
     @Autowired
     private EmpMapper empMapper;
-    @RequestMapping(value = "selectAll")
-    public String selectAll(Model model)
+    @RequestMapping(value = "selectAllEmp")
+    public String selectAllEmp(Model model)
     {
-        List<Emp> emps = empMapper.selectAll();
+        List<Emp> emps = empMapper.selectAllEmp();
         for (Emp emp:emps)
         {
             System.out.println(emp);

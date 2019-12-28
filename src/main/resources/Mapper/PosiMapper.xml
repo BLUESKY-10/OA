@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="edu.abc.Mapper.EmpMapper">
-    <select id="selectAllEmp" resultType="Emp">
-        select * from emp
+<mapper namespace="edu.abc.Mapper.PosiMapper">
+    <select id="selectAllPosi" resultType="Posi">
+        select * from posi
     </select>
 
 </mapper>

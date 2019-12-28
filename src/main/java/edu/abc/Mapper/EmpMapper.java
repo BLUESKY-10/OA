@@ -7,7 +7,7 @@ import java.util.List;
 @Repository
 public interface EmpMapper {
 
-    public List<Emp> selectAll();
+    public List<Emp> selectAllEmp();
 
     public Emp selectOne(String empId);
 }
