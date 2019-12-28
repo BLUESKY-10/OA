@@ -13,6 +13,7 @@ import java.util.List;
 public class PosiController {
     @Autowired
     private PosiMapper posiMapper;
+    //查询全部职位
     @RequestMapping(value = "selectAllPosi")
     public String selectAllPosi(Model model)
     {

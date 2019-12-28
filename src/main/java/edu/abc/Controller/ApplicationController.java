@@ -13,7 +13,7 @@ public class ApplicationController {
 
     @Autowired
     private ApplicationMapper applicationMapper;
-    //查询全部员工
+    //查询全部申请
     @RequestMapping(value = "selectAllApplication")
     public String selectAllEmp(Model model)
     {

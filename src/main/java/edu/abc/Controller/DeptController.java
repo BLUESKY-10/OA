@@ -14,7 +14,7 @@ public class DeptController {
 
     @Autowired
     private DeptMapper deptMapper;
-    //查询全部员工
+    //查询全部部门
     @RequestMapping(value = "selectAllDept")
     public String selectAllEmp(Model model)
     {
