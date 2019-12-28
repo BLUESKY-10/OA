@@ -1,0 +1,17 @@
+#  This is comment
+server:
+  port: 7000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/oa?characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: admin
+    hikari:
+      maximum-pool-size: 2
+mybatis:
+  mapper-locations: classpath:Mapper/*Mapper.xml
+  type-aliases-package: edu.abc.po
+app:
+  author: aaa

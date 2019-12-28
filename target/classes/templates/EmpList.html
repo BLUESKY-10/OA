@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>SpringBoot Test Page</title>
+    <link rel="stylesheet" type="text/css" href="@{/student.css}" />
+</head>
+<!--<h4 th:text="${studentsList}"  >This is welcome page</h4>-->
+<body>
+<h4>组员信息</h4>
+<table border="1" rules="all" th:width="400">
+
+    <tr>
+
+        <th>员工编号</th>
+
+        <th>员工姓名</th>
+
+        <th>部门</th>
+
+        <th>职位</th>
+
+        <th>操作</th>
+
+
+    </tr>
+
+    <tr th:each="emp:${empsList}">
+
+        <td th:text="${emp.empId}"></td>
+
+        <td th:text="${emp.empName}"></td>
+
+        <td th:text="${emp.department}"></td>
+
+        <td th:text="${emp.position}"></td>
+
+        <td>
+            <a href="#">修改</a>
+            <a href="#">删除</a>
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>
