@@ -6,7 +6,7 @@ public class Application {
 
     private Long id;
 
-    private String application;
+    private String applicant;
 
     private String theme;
 
@@ -26,12 +26,12 @@ public class Application {
         this.id = id;
     }
 
-    public String getApplication() {
-        return application;
+    public String getApplicant() {
+        return applicant;
     }
 
-    public void setApplication(String application) {
-        this.application = application;
+    public void setApplicant(String applicant) {
+        this.applicant = applicant;
     }
 
     public String getTheme() {
@@ -78,7 +78,7 @@ public class Application {
     public String toString() {
         return "Application{" +
                 "id=" + id +
-                ", application='" + application + '\'' +
+                ", applicant='" + applicant + '\'' +
                 ", theme='" + theme + '\'' +
                 ", content='" + content + '\'' +
                 ", approver='" + approver + '\'' +

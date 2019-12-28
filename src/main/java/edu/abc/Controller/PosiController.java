@@ -1,7 +1,6 @@
 package edu.abc.Controller;
 
 import edu.abc.Mapper.PosiMapper;
-import edu.abc.po.Emp;
 import edu.abc.po.Posi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

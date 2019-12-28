@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        table
+        {
+            width: 1000px;
+        }
+    </style>
 </head>
 <body>
+<h4>申请表</h4>
+<table border="1" rules="all" th:width="400">
 
+    <tr>
+
+        <th>流程编号</th>
+
+        <th>申请人</th>
+
+        <th>主题名</th>
+
+        <th>详细内容</th>
+
+        <th>批准人</th>
+
+        <th>申请时间</th>
+
+        <th>核准时间</th>
+    </tr>
+
+    <tr th:each="applications:${applicationsList}">
+
+        <td th:text="${applications.id}"></td>
+
+        <td th:text="${applications.applicant}"></td>
+
+        <td th:text="${applications.theme}"></td>
+
+        <td th:text="${applications.content}"></td>
+
+        <td th:text="${applications.approver}"></td>
+
+        <td th:text="${applications.staTime}"></td>
+
+        <td th:text="${applications.apprTime}"></td>
+
+    </tr>
+
+</table>
 </body>
 </html>
