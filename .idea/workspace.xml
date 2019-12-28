@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e4c0f78-01fa-453f-a253-87307faaf5be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/EmpList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/EmpList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577492238714</updated>
       <workItem from="1577492258269" duration="6025000" />
-      <workItem from="1577503728779" duration="2484000" />
+      <workItem from="1577503728779" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="Original">
       <created>1577504165159</created>
@@ -132,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577504906872</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Original">
+      <created>1577506695860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577506695860</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Original">
+      <created>1577506708460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577506708460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,10 +164,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577496900364" />
-    <state x="264" y="10" key="CommitChangelistDialog2" timestamp="1577506694700">
+    <state x="264" y="10" key="CommitChangelistDialog2" timestamp="1577506706786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="264" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577506694700" />
+    <state x="264" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577506706786" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1577503957117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -195,10 +208,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577503778769" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577504929174">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577506733073">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577504929174" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577506733073" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1577503728745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
