@@ -10,4 +10,6 @@ public interface EmpMapper {
     public List<Emp> selectAllEmp();
 
     public Emp selectOne(String empId);
+
+    public void deleteEmp(String empId);
 }

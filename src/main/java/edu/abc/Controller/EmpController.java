@@ -14,6 +14,8 @@ public class EmpController {
 
     @Autowired
     private EmpMapper empMapper;
+
+    //查询全部员工
     @RequestMapping(value = "selectAllEmp")
     public String selectAllEmp(Model model)
     {
@@ -24,5 +26,13 @@ public class EmpController {
         }
         model.addAttribute("empsList",emps);
         return "EmpList.html";
+    }
+
+    //删除指定员工
+    @RequestMapping(value = "deleteEmp")
+    public String deleteEmp()
+    {
+        empMapper.deleteEmp("E0005");
+        return "Welcome.html";
     }
 }
