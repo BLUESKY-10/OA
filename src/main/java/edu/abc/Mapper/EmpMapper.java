@@ -12,4 +12,6 @@ public interface EmpMapper {
     public Emp selectOne(String empId);
 
     public void deleteEmp(String empId);
+
+    public int insertOneEmp(Emp emp);
 }

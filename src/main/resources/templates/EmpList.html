@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>SpringBoot Test Page</title>
+    <title>Employee</title>
 </head>
 <body>
 <h4>员工信息</h4>
@@ -40,5 +40,57 @@
     </tr>
 
 </table>
+
+<h4>添加员工</h4>
+<table>
+    <form action="/addOneEmp" method="post">
+
+        <tr>
+            <td>员工编号：<input type="text" name="empId" /></td>
+        </tr>
+
+        <tr>
+            <td>员工姓名：<input type="text" name="empName" /></td>
+        </tr>
+
+        <tr>
+            <td>部&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp门：
+            <select style="width:152px;height:28px" name="department">
+                <option value="人事部">人事部</option>
+                <option value="前端">前端</option>
+                <option value="后勤部">后勤部</option>
+                <option value="后端">后端</option>
+                <option value="接待部">接待部</option>
+                <option value="服务部">服务部</option>
+                <option value="测试部">测试部</option>
+                <option value="界面UI">界面UI</option>
+                <option value="行政部">行政部</option>
+                <option value="财务部">财务部</option>
+            </select>
+        </tr>
+
+        <tr>
+            <td>职&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp位：
+            <select style="width:152px;height:28px" name="position">
+                <option value="UI设计师">UI设计师</option>
+                <option value="前端工程师">前端工程师</option>
+                <option value="后端工程师">后端工程师</option>
+                <option value="总经理">总经理</option>
+                <option value="普通员工">普通员工</option>
+                <option value="架构师">架构师</option>
+                <option value="部门经理">部门经理</option>
+                <option value="项目经理">项目经理</option>
+            </select>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" name="sub" value="添加" />
+            </td>
+        </tr>
+
+    </form>
+</table>
+
 </body>
 </html>

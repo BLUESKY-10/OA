@@ -10,4 +10,8 @@
     <delete id="deleteEmp" parameterType="String">
         delete from emp where empId=#{empId}
     </delete>
+
+    <insert id="insertOneEmp" parameterType="Emp">
+        insert into emp value (#{empId},#{empName},#{department},#{position})
+    </insert>
 </mapper>
