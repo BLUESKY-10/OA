@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e4c0f78-01fa-453f-a253-87307faaf5be" name="Default Changelist" comment="Original">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/abc/Controller/PosiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Mapper/PosiMapper.xml" afterDir="false" />
+    <list default="true" id="2e4c0f78-01fa-453f-a253-87307faaf5be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/abc/Controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/abc/Controller/EmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/abc/Mapper/EmpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/abc/Mapper/EmpMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/abc/Mapper/PosiMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/abc/Mapper/PosiMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Mapper/EmpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/EmpList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/EmpList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/PosiList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/PosiList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Mapper/EmpMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mapper/EmpMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/abc/Controller/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/abc/Controller/EmpController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/abc/Mapper/EmpMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/abc/Mapper/EmpMapper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577492238714</updated>
       <workItem from="1577492258269" duration="6025000" />
-      <workItem from="1577503728779" duration="5287000" />
+      <workItem from="1577503728779" duration="5624000" />
     </task>
     <task id="LOCAL-00001" summary="Original">
       <created>1577504165159</created>
@@ -163,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577506796682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Original">
+      <created>1577509836509</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577509836509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,10 +178,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577496900364" />
-    <state x="264" y="10" key="CommitChangelistDialog2" timestamp="1577509518172">
+    <state x="264" y="10" key="CommitChangelistDialog2" timestamp="1577509834345">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="264" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577509518172" />
+    <state x="264" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577509834345" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1577503957117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,10 +222,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577503778769" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577506809737">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1577509856205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577506809737" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577509856205" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1577503728745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
