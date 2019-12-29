@@ -8,7 +8,7 @@ public class Emp {
 
     private String department;
 
-    private String positions;
+    private String position;
 
     public String getEmpId() {
         return empId;
@@ -34,12 +34,12 @@ public class Emp {
         this.department = department;
     }
 
-    public String getPositions() {
-        return positions;
+    public String getPosition() {
+        return position;
     }
 
-    public void setPositions(String positions) {
-        this.positions = positions;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class Emp {
                 "empId='" + empId + '\'' +
                 ", empName='" + empName + '\'' +
                 ", department='" + department + '\'' +
-                ", positions='" + positions + '\'' +
+                ", position='" + position + '\'' +
                 '}';
     }
 }

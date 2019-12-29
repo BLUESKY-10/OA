@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class EmpController {
@@ -57,7 +56,7 @@ public class EmpController {
         emp.setEmpId(request.getParameter("empId"));
         emp.setEmpName(request.getParameter("empName"));
         emp.setDepartment(request.getParameter("department"));
-        emp.setPositions(request.getParameter("positions"));
+        emp.setPosition(request.getParameter("position"));
         int i= empMapper.insertOneEmp(emp);
         System.out.println(i);
         return "Welcome.html";
@@ -70,7 +69,7 @@ public class EmpController {
         emp.setEmpId(request.getParameter("empId"));
         emp.setEmpName(request.getParameter("empName"));
         emp.setDepartment(request.getParameter("department"));
-        emp.setPositions(request.getParameter("positions"));
+        emp.setPosition(request.getParameter("position"));
         int i= empMapper.updateEmp(emp);
         System.out.println(i);
         return "Welcome.html";

@@ -13,7 +13,7 @@
     </delete>
 
     <insert id="insertOneEmp" parameterType="Emp">
-        insert into emp value (#{empId},#{empName},#{department},#{positions})
+        insert into emp value (#{empId},#{empName},#{department},#{position})
     </insert>
 
     <select id="selectByPolicy" resultType="Emp">
@@ -33,7 +33,7 @@
         <set>
             <if test="empName!='' and empName!=null">empName=#{empName},</if>
             <if test="department!='' and department!=null">department=#{department},</if>
-            <if test="positions!='' and positions!=null">positions=#{positions}</if>
+            <if test="position!='' and position!=null">position=#{position}</if>
         </set>
         WHERE empId=#{empId}
     </update>
