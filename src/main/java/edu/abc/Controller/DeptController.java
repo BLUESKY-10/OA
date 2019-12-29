@@ -16,7 +16,7 @@ public class DeptController {
     private DeptMapper deptMapper;
     //查询全部部门
     @RequestMapping(value = "selectAllDept")
-    public String selectAllEmp(Model model)
+    public String selectAllDept(Model model)
     {
         List<Dept> depts = deptMapper.selectAllDept();
         for (Dept dept:depts)

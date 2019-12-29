@@ -44,9 +44,9 @@ public class EmpController {
 
     //删除指定员工
     @RequestMapping(value = "deleteEmp")
-    public String deleteEmp()
+    public String deleteEmp(HttpServletRequest request)
     {
-        empMapper.deleteEmp("E0005");
+        empMapper.deleteEmp(request.getParameter("empId"));
         return "Welcome.html";
     }
 
@@ -57,8 +57,21 @@ public class EmpController {
         emp.setEmpId(request.getParameter("empId"));
         emp.setEmpName(request.getParameter("empName"));
         emp.setDepartment(request.getParameter("department"));
-        emp.setPosition(request.getParameter("position"));
+        emp.setPositions(request.getParameter("positions"));
         int i= empMapper.insertOneEmp(emp);
+        System.out.println(i);
+        return "Welcome.html";
+    }
+
+    //更新员工信息
+    @RequestMapping(value = "updateEmp")
+    public String uodateMessage(HttpServletRequest request) {
+        Emp emp=new Emp();
+        emp.setEmpId(request.getParameter("empId"));
+        emp.setEmpName(request.getParameter("empName"));
+        emp.setDepartment(request.getParameter("department"));
+        emp.setPositions(request.getParameter("positions"));
+        int i= empMapper.updateEmp(emp);
         System.out.println(i);
         return "Welcome.html";
     }

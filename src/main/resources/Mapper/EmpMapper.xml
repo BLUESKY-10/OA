@@ -13,7 +13,7 @@
     </delete>
 
     <insert id="insertOneEmp" parameterType="Emp">
-        insert into emp value (#{empId},#{empName},#{department},#{position})
+        insert into emp value (#{empId},#{empName},#{department},#{positions})
     </insert>
 
     <select id="selectByPolicy" resultType="Emp">
@@ -23,5 +23,18 @@
             <if test="empName!='' and empId!=null">and empName like "%${empName}%"</if>
         </where>
     </select>
+    
+    <delete id="deleteOneEmp" parameterType="Emp">
+        delete from emp where empId=#{empId} and empName=#{empName}
+    </delete>
 
+    <update id="updateEmp" parameterType="Emp">
+        update emp
+        <set>
+            <if test="empName!='' and empName!=null">empName=#{empName},</if>
+            <if test="department!='' and department!=null">department=#{department},</if>
+            <if test="positions!='' and positions!=null">positions=#{positions}</if>
+        </set>
+        WHERE empId=#{empId}
+    </update>
 </mapper>

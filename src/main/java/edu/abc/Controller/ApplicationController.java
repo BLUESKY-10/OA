@@ -15,7 +15,7 @@ public class ApplicationController {
     private ApplicationMapper applicationMapper;
     //查询全部申请
     @RequestMapping(value = "selectAllApplication")
-    public String selectAllEmp(Model model)
+    public String selectAllApplication(Model model)
     {
         List<Application> applications = applicationMapper.selectAllApplication();
         for (Application application:applications)
