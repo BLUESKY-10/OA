@@ -17,6 +17,18 @@ public class EmpController {
     @Autowired
     private EmpMapper empMapper;
 
+    //条件查询
+    @RequestMapping(value = "selectByPolicy")
+    public String selectByCond(HttpServletRequest request,Model model)
+    {
+        Emp emp = new Emp();
+        emp.setEmpId(request.getParameter("empId"));
+        emp.setEmpName(request.getParameter("empName"));
+        List<Emp> emps = empMapper.selectByPolicy(emp);
+        model.addAttribute("empsList",emps);
+        return "EmpList.html";
+    }
+
     //查询全部员工
     @RequestMapping(value = "selectAllEmp")
     public String selectAllEmp(Model model)
@@ -40,7 +52,7 @@ public class EmpController {
 
     //添加员工
     @RequestMapping(value = "addOneEmp")
-    public String insertOne(HttpServletRequest request, Map<String, Object> model) {
+    public String insertOne(HttpServletRequest request) {
         Emp emp=new Emp();
         emp.setEmpId(request.getParameter("empId"));
         emp.setEmpName(request.getParameter("empName"));

@@ -9,7 +9,7 @@ public interface EmpMapper {
 
     public List<Emp> selectAllEmp();
 
-    public Emp selectOne(String empId);
+    public List<Emp> selectByPolicy(Emp emp);
 
     public void deleteEmp(String empId);
 

@@ -6,6 +6,19 @@
 </head>
 <body>
 <h4>员工信息</h4>
+
+<table id="tab1">
+    <form action="/selectByPolicy" method="post">
+        <tr>
+            <td>查询条件：
+                编号：<input type="text"  style="width: 80px" name="empId" />
+                姓名：<input type="text"  style="width: 80px" name="empName" />
+                <input type="submit" name="sub" value="查询" />
+            </td>
+        </tr>
+    </form>
+</table>
+
 <table border="1" rules="all" th:width="400">
 
     <tr>
@@ -84,8 +97,8 @@
         </tr>
 
         <tr>
-            <td>
-                <input type="submit" name="sub" value="添加" />
+            <td align="center">
+                <input type="submit" style="width: 110px " name="sub" value="添加" />
             </td>
         </tr>
 

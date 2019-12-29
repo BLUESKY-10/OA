@@ -3,6 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="edu.abc.Mapper.EmpMapper">
+
     <select id="selectAllEmp" resultType="Emp">
         select * from emp
     </select>
@@ -10,4 +11,17 @@
     <delete id="deleteEmp" parameterType="String">
         delete from emp where empId=#{empId}
     </delete>
+
+    <insert id="insertOneEmp" parameterType="Emp">
+        insert into emp value (#{empId},#{empName},#{department},#{position})
+    </insert>
+
+    <select id="selectByPolicy" resultType="Emp">
+        select * from emp
+        <where>
+            <if test="empId!='' and empId!=null">empId=#{empId}</if>
+            <if test="empName!='' and empId!=null">and empName like "%${empName}%"</if>
+        </where>
+    </select>
+
 </mapper>
