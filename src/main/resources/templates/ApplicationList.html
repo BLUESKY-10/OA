@@ -50,5 +50,48 @@
     </tr>
 
 </table>
+
+<br>
+<h4>新增审批记录</h4>
+<table>
+    <form method="post" action="/addApplication" id="myForm">
+
+        <tr>
+            <td>申请人</td>
+            <td><input type="text" name="applicant"/></td>
+        </tr>
+
+        <tr>
+            <td>主题名</td>
+            <td><input type="text" name="theme"/></td>
+        </tr>
+
+        <tr>
+            <td>详细内容</td>
+            <td><input type="text" style="overflow-y: scroll"; name="content"/></td>
+        </tr>
+
+        <tr>
+            <td>批准人</td>
+            <td><input type="text" name="approver"/></td>
+        </tr>
+
+        <tr>
+            <td>申请时间(年-月-日)</td>
+            <td><input type="text" name="staTime"/></td>
+        </tr>
+
+        <tr>
+            <td>核准时间(年-月-日)</td>
+            <td><input type="text" name="apprTime"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+            <td><input type="reset"value="清空"></td>
+        </tr>
+
+    </form>
+</table>
+
 </body>
 </html>
